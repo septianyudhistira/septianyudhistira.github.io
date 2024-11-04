@@ -143,8 +143,23 @@ nav ul li a:hover{
     bottom: -1%;
 }
 
+.navbar {
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-home {
+    padding: 6rem 0px 0rem;
+}
+
+
 /* Media Query untuk perangkat dengan lebar maksimum 768px (tablet dan HP) */
-@media (max-width: 768px) {
+@media (max-width: 60em) {
+    .navbar {
+        max-width: 75rem;
+    }
+
     .hero {
         width: 90%; /* Mengubah lebar menjadi 90% dari layar */
         height: auto; /* Mengatur tinggi otomatis untuk menjaga proporsi */
@@ -156,6 +171,13 @@ nav ul li a:hover{
         width: 80%; /* Mengubah lebar gambar pengguna */
         position: absolute;
         bottom: -1%; /* Menjaga posisi relatif terhadap hero */
+    }
+
+    .text-content {
+        display: grid;
+        grid-template-columns: 1fr 1.25fr;
+        gap: 10rem;
+        text-align: left;
     }
 }
 
