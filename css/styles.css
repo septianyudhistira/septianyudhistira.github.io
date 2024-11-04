@@ -7,13 +7,26 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 200px;
+}
+
+body {
+    flex: 1;
+}
+
 .header{
+    flex: 1;
     width: 100%;
     height: 100vh;
     background: #ffffff;
     color: #ffffff;
     padding: 0 8.5%;
-    position: relative;;
+    position: relative;
 }
 
 nav{
@@ -155,7 +168,7 @@ nav ul li a:hover{
 
 
 /* Media Query untuk perangkat dengan lebar maksimum 768px (tablet dan HP) */
-@media (max-width: 60em) {
+@media (max-width: 768px) {
     .navbar {
         max-width: 75rem;
     }
@@ -185,12 +198,13 @@ nav ul li a:hover{
 footer {
     background-color: #130f49;
     color: white;
-    padding: 20px 8.5%;
+    padding: 0 0.1%;
     text-align: center;
+    position: relative;
+    unicode-bidi: isolate;
 }
 
 .footer-content {
-    /*display: flex;*/
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
@@ -264,7 +278,7 @@ footer {
     font-size: 2em;
     text-transform: capitalize;
     text-decoration: underline;
-    color: black;
+    color: #000080;
     margin-top: 10%;
     letter-spacing: 1px;
     line-height: 26px;
@@ -293,4 +307,92 @@ footer {
 .content header {
     display: block;
     unicode-bidi: isolate;
+}
+
+.post {
+    color: #34a1cd;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 0.8em;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    border: 3px solid #34a1cd;
+}
+
+.post-title {
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.post-title a {
+    color: #34a1cd;
+    display: inline-block;
+    position: relative;
+    padding-top: 0.5em;
+    padding-bottom: 0.25em;
+    transition: 0.2s ease-out;
+    will-change: transform, color;
+    text-decoration: none;
+}
+
+.post-title a:hover {
+    color: #000080;
+}
+
+
+.content p {
+    font-size: 0.98rem;
+    inline-height: 2;
+    color: black;
+    margin-top: 1rem;
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+
+.category {
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 0.8em;
+    background: darkgrey;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    border: 1px solid white;
+    display: inline-block;
+    margin-bottom: 1rem;
+    text-decoration: none;
+}
+
+.content-media {
+    text-align: center;
+}
+
+@media (min-width: 850px) { .article > .content-media > .wrapper{
+    border: 10px solid white;
+    border-radius: 0.9rem;
+    box-shadow: rgba(125,127,129,0.17) 0 17px 56px;
+}}
+
+.wrapper {
+    margin-bottom: 0.5rem;
+    max-height: 400px;
+    overflow: hidden;
+}
+
+/*.bottom {*/
+/*    padding: 0;*/
+/*    padding-top: 100%;*/
+/*}*/
+
+.wrapper img {
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*object-fit: cover;*/
+    /*object-position: center center;*/
+    /*opacity: 0;*/
 }
