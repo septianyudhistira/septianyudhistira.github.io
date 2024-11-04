@@ -143,6 +143,22 @@ nav ul li a:hover{
     bottom: -1%;
 }
 
+/* Media Query untuk perangkat dengan lebar maksimum 768px (tablet dan HP) */
+@media (max-width: 768px) {
+    .hero {
+        width: 90%; /* Mengubah lebar menjadi 90% dari layar */
+        height: auto; /* Mengatur tinggi otomatis untuk menjaga proporsi */
+        right: 5%; /* Mengatur posisi ke kanan */
+        bottom: 5%; /* Mengatur posisi ke bawah */
+    }
+
+    .user-img {
+        width: 80%; /* Mengubah lebar gambar pengguna */
+        position: absolute;
+        bottom: -1%; /* Menjaga posisi relatif terhadap hero */
+    }
+}
+
 
 footer {
     background-color: #130f49;
@@ -220,4 +236,39 @@ footer {
 .footer-bottom {
     margin-top: 15px;
     font-size: 14px;
+}
+
+.title {
+    font-size: 2em;
+    text-transform: capitalize;
+    text-decoration: underline;
+    color: black;
+    margin-top: 10%;
+    letter-spacing: 1px;
+    line-height: 26px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    unicode-bidi: isolate;
+}
+
+
+.article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    -webkit-box-align: center;
+    margin-bottom: 5rem;
+    unicode-bidi: isolate;
+
+}
+
+.content {
+    padding: 2rem 3rem;
+}
+
+.content header {
+    display: block;
+    unicode-bidi: isolate;
 }
