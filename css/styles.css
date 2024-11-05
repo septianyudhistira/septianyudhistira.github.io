@@ -7,10 +7,15 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    background: rgb(255,255,255);
+    background: linear-gradient(221deg, rgba(255,255,255,0) 0%, rgba(141,230,250,0.5153711142660189) 42%, rgba(52,161,205,0.5097688733696604) 90%);
+}
+
 /*<!--- Navbar -->*/
 
 header {
-    border: 1px solid;
+    /*border: 1px solid;*/
     width: 80%;
     margin: auto;
 }
@@ -24,13 +29,13 @@ header:after {
 header .logo{
     width: 70px;
     cursor: pointer;
-    border: 1px solid;
+    /*border: 1px solid;*/
     float: left;
     padding: 3px 0;
 }
 
 header ul {
-    border: 1px solid;
+    /*border: 1px solid;*/
     float: right;
 }
 
@@ -54,7 +59,7 @@ header ul li a:hover {
 /*Text Box*/
 .text-content {
     height: 60vh;
-    border: 1px solid;
+    /*border: 1px solid;*/
     position: relative;
     width: 80%;
     margin: auto;
@@ -118,7 +123,7 @@ section:last-of-type {
 
 /*Picture*/
 .hero{
-    border: 1px solid;
+    /*border: 1px solid;*/
     display: inline-block;
     position: absolute;
     right: 8%;
@@ -145,7 +150,7 @@ section:last-of-type {
 
 /*Footer*/
 footer {
-    border: 1px solid;
+    /*border: 1px solid;*/
     padding: 50px 150px;
     background-color: #130f49;
     justify-content: space-between;
@@ -209,7 +214,7 @@ footer {
 
 .experience {
     height: 300vh;
-    border: 1px solid;
+    /*border: 1px solid;*/
     position: relative;
     width: 80%;
     margin: auto;
@@ -227,7 +232,7 @@ footer {
     -webkit-box-align: center;
     margin-bottom: 0.5rem;
     unicode-bidi: isolate;
-    border: 1px solid;
+    /*border: 1px solid;*/
     padding: 0.5rem;
 }
 
@@ -269,6 +274,7 @@ footer {
     margin-top: 1rem;
     text-align: justify;
     margin-bottom: 2rem;
+    text-wrap-style: auto;
 }
 
 .category {
@@ -303,7 +309,7 @@ footer {
     object-fit: cover;
     object-position: center;
     opacity: 100;
-    border: 1px solid;
+    /*border: 1px solid;*/
     border-radius: 10px;
     padding: 10px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
@@ -333,8 +339,16 @@ footer {
         float: left;
     }
 
+    header ul li {
+        padding: 5px 1px;
+    }
+
+    header ul li a {
+        font-size: 20px;
+    }
+
     .text-content h1 {
-        font-size: 30px;
+        font-size: 26px;
         line-height: 80px;
         color: #55527c;
     }
@@ -431,7 +445,7 @@ footer {
         margin-left: 10px;
         margin-top: 100px;
         margin-bottom: 100px;
-        margin-right: 270px;
+        margin-right: 160px;
     }
 
 }
