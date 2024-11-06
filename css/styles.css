@@ -303,14 +303,13 @@ footer {
 .wrapper {
     max-width: 100%;
     margin-bottom: 0.5rem;
-    max-height: 400px;
+    max-height: 500px;
     overflow: hidden;
-    width: 100%;
     object-fit: cover;
     object-position: center;
     opacity: 100;
-    /*border: 1px solid;*/
-    border-radius: 10px;
+    border: 1px solid;
+    border-radius: 20px;
     padding: 10px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
@@ -348,7 +347,7 @@ footer {
     }
 
     .text-content h1 {
-        font-size: 26px;
+        font-size: 23px;
         line-height: 80px;
         color: #55527c;
     }
@@ -424,6 +423,11 @@ footer {
     .article {
         margin-bottom: 0.5rem;
         padding: 0.1rem;
+        /*background-image: url('/img/img_login.jpg');*/
+        /*background-size: 100px;*/
+        /*background-repeat: no-repeat;*/
+        /*background-position-x: 100px;*/
+
     }
 
     .post {
@@ -464,11 +468,16 @@ footer {
         visibility: hidden;
     }
 
+
     .header-porto {
         margin-left: 10px;
         margin-top: 100px;
         margin-bottom: 100px;
-        margin-right: 150px;
+        margin-right: 110px;
     }
+
+    /*.content-media {*/
+    /*    order: -1;*/
+    /*}*/
 
 }
