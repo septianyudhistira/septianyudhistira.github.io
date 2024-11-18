@@ -539,3 +539,7 @@ ul li {
     padding: 5px;
     list-style-type: square;
 }
+
+.header-porto .clickdetail {
+    color: #34a1cd;
+}
