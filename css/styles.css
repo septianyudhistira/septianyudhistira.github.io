@@ -7,9 +7,14 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.container {
+    width: 100%;
+}
+
 body {
     background: rgb(255,255,255);
     background: linear-gradient(221deg, rgba(255,255,255,0) 0%, rgba(141,230,250,0.5153711142660189) 42%, rgba(52,161,205,0.5097688733696604) 90%);
+    background-repeat: no-repeat;
 }
 
 /*<!--- Navbar -->*/
@@ -73,13 +78,13 @@ section:last-of-type {
     margin-bottom: 50px;
 }
 
-.text-content h1 {
+.text-content {
     font-size: 60px;
     line-height: 160px;
     color: #55527c;
 }
 
-.text-content h1 span.auto-input {
+.text-content span.auto-input {
     color: #34a1cd;
 }
 
@@ -346,7 +351,7 @@ footer {
         font-size: 20px;
     }
 
-    .text-content h1 {
+    .text-content  {
         font-size: 23px;
         line-height: 80px;
         color: #55527c;
@@ -480,4 +485,58 @@ footer {
     /*    order: -1;*/
     /*}*/
 
+}
+
+.contentjob {
+    width: 80%;
+    margin: 100px auto;
+}
+
+.titlejob {
+    text-align: center;
+    color: #55527c;
+}
+
+.dateexperience {
+    text-align: center;
+    color: black;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.wrapper-job {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 55%;
+    max-height: 500px;
+    overflow: hidden;
+    object-fit: cover;
+    opacity: 100;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.textjob {
+    padding-top: 100px;
+    text-align: justify;
+}
+
+.myjob {
+    padding-top: 50px;
+    color: #55527c;
+}
+
+.listjob {
+    padding-top: 20px;
+    padding-left: 50px;
+    text-align: justify;
+}
+
+ul li {
+    padding: 5px;
+    list-style-type: square;
 }
