@@ -8,7 +8,6 @@
 }
 
 .container {
-    width: 100%;
 }
 
 body {
@@ -78,17 +77,17 @@ section:last-of-type {
     margin-bottom: 50px;
 }
 
-.text-content {
+.input {
     font-size: 60px;
     line-height: 160px;
     color: #55527c;
 }
 
-.text-content span.auto-input {
+.input span.auto-input {
     color: #34a1cd;
 }
 
-.text-content p {
+.text-tittle {
     color: #55527c;
 }
 
@@ -351,13 +350,13 @@ footer {
         font-size: 20px;
     }
 
-    .text-content  {
+    .input  {
         font-size: 23px;
         line-height: 80px;
         color: #55527c;
     }
 
-    .text-content p {
+    .text-tittle {
         color: #55527c;
         font-size: 10px;
     }
