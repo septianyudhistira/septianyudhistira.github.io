@@ -217,8 +217,7 @@ footer {
 /*Portofolio*/
 
 .experience {
-    height: 300vh;
-    /*border: 1px solid;*/
+    height: 350vh;
     position: relative;
     width: 80%;
     margin: auto;
@@ -417,7 +416,7 @@ footer {
     }
 
     .experience {
-        height: 260vh;
+        height: 400vh;
     }
 
     footer {
